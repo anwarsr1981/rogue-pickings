@@ -163,3 +163,55 @@ footer span {
 	color: #77a466;
 	font-size: 14px;
 }
+
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+ 	top-section {
+ 		border-bottom: 100%;
+
+ 	}
+
+ 	bottom-section {
+ 		display: flex;
+  		justify-content: center;
+  		align-items: center;
+ 	}
+ 	section-one {
+ 		display: flex;
+  		justify-content: center;
+  		align-items: center;
+ 	}
+ 	section-two {
+ 		display: flex;
+  		justify-content: center;
+  		align-items: center;
+  		border: 0 thin 0 thin;
+ 	}
+ 	section-three {
+ 		display: flex;
+  		justify-content: center;
+  		align-items: center;
+ 	}
+}
+ 
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+ 		header {
+ 			display: flex;
+  			justify-content: center;
+  			align-items: center;
+ 		}
+
+ 		header nav ul {
+ 			display: flex;
+  			justify-content: center;
+  			align-items: center;
+ 		}
+
+ 		header h1 {
+    		width: 40%;
+    		padding: ;
+    		border-bottom: ;
+    		text-align: ;
+  }
+}
